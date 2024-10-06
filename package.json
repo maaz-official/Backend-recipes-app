@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node /server.js",
+    "dev": "nodemon /server.js"
   },
   "author": "muhammad maaz",
   "license": "MIT",
   "description": "this is recipes app",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
     "express": "^4.21.0",
-    "mongoose": "^8.7.0"
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7"
   },
-  "devDependencies": {},
   "keywords": [
     "recipes",
     "backend"
